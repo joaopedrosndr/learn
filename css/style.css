@@ -1,0 +1,183 @@
+:root{
+        --primary-color: #ff4b61;
+        --secondary-color: #22c6a6;
+        --terciary-color:#10B333;
+        --white-color: #ffffff;
+    }
+/*Definições gerais do body*/
+body{
+    width: 100%;
+    }
+*{
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 0;
+    }
+img {
+    width: 100%;
+}
+h1, h2, h3, h4, p{
+    font-family: "Montserrat";
+}
+.slogan{
+    line-height: 36px;
+}
+/*Estilo da barra navegação*/
+.navbar{
+    font-family: "Montserrat";
+    font-size: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--primary-color);
+}
+.navbar .logo{
+    width: 185px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ul {
+    list-style: none;
+    margin-right: 100px;
+}
+.navbar .nav {
+    font-size: 15px;
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .nav a {
+    padding: 0 1rem;
+    color: var(--white-color);
+    text-decoration: none;
+}
+.navbar .nav a:hover {
+    color: var(--terciary-color);
+}
+/*Estilos da seção 1*/
+.container-primarycolor{
+    background-color: var(--primary-color);
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+.container-primarycolor .content{
+    max-width: 80%;
+}
+.container-primarycolor .slogan{
+    text-align: center;
+    color: var(--white-color);
+}
+/*Estilo seção 2*/ /*Estilo da seção 3*/
+.container-white{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+}
+.container-white .color-red{
+    color: var(--primary-color);
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.container-white .color-gray{
+    color: #707070;
+    font-size: 20px;
+}
+.container-white .spacing{
+    width: 33.3%;
+    padding-top: 50px;
+    padding-inline-end: 100px;
+    padding-bottom: 50px;
+}
+.container-white .ilustra{
+    max-height: 450px;
+    resize: both;
+}
+.container-white .p{
+    color: #707070;
+}
+/*Estilo da seção 4*/
+.calltoaction .container-primarycolor .cta{
+    color: var(--white-color);
+    background-color: var(--terciary-color);
+    padding: 20px 32px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px #707070; 
+}
+.calltoaction .centralizar{
+    text-align: center;
+    padding-bottom: 40px;
+}
+/*Estilo da seção 5*/
+.container-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    max-width: 80%;
+    padding-bottom: 100px;
+}
+.container-info .bloco{
+    width: 34%;
+    padding-inline-end: 100px;
+    padding-top: 50px;
+    text-align: center;
+    color: #707070;
+    align-items: center;
+}
+.container-info .padding{
+    padding-bottom: 20px;
+}
+.container-info .col2{
+    width: 65%;
+    max-height: 350px;
+    resize: vertical;
+    padding-bottom: 20px;
+}
+/*Estilo da seção final*/
+.final .container-final{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--primary-color);
+    padding-top: 15px;
+    align-items: center;
+    justify-items: center;
+}
+.final .logo{
+    width: 185px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.final .contato .clique{
+    color: var(--white-color);
+    background-color: var(--terciary-color);
+    padding: 20px 32px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px #707070; 
+}
+.final .redes_sociais{
+    display: flex;
+}
+.final .redes{
+    align-items: center;
+    color: var(--white-color);
+    text-align: center;
+}
+.final .icon{
+    max-height: 35px;
+    max-width: 35px;
+}
+.container-primarycolor .end{
+    text-align: center;
+    color: var(--white-color);
+}
