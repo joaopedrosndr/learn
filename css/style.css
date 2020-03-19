@@ -58,7 +58,7 @@ ul {
     text-decoration: none;
 }
 .navbar .nav a:hover {
-    color: var(--terciary-color);
+    color: var(--secondary-color);
 }
 /*Estilos da seção 1*/
 .container-primarycolor{
@@ -106,11 +106,14 @@ ul {
 /*Estilo da seção 4*/
 .calltoaction .container-primarycolor .cta{
     color: var(--white-color);
-    background-color: var(--terciary-color);
+    background-color: var(--secondary-color);
     padding: 20px 32px;
     border: none;
     border-radius: 15px;
     box-shadow: 0px 5px 5px #707070; 
+}
+.calltoaction .container-primarycolor .cta:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .calltoaction .centralizar{
     text-align: center;
@@ -159,12 +162,15 @@ ul {
 }
 .final .contato .clique{
     color: var(--white-color);
-    background-color: var(--terciary-color);
+    background-color: var(--secondary-color);
     padding: 20px 32px;
     border: none;
     border-radius: 15px;
     box-shadow: 0px 5px 5px #707070; 
 }
+.final .contato .clique:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
 .final .redes_sociais{
     display: flex;
 }
@@ -180,4 +186,24 @@ ul {
 .container-primarycolor .end{
     text-align: center;
     color: var(--white-color);
+}
+/*Float whatsapp*/
+.float{
+    position: fixed;
+    margin-bottom: 100px;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color: var(--secondary-color);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:300;
+}
+
+.my-float{
+	margin-top:16px;
 }
